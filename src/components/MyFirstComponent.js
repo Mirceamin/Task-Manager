@@ -1,7 +1,7 @@
 function MyFirstComponent() {
     return (
         <div>
-            <h1>Hello, Mircea!!</h1>
+            <h1>Hello!!</h1>
             <p>Start learning React!</p>
         </div>
     );
