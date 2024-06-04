@@ -12,9 +12,10 @@ function TaskCard(props) {
             <div className="card-content">
                 <p>{props.name}</p>
             </div>
-            <div className="card-footer"> 
+            <div className="card-footer">
+                <button onClick={() => {console.log("Click")}}>Click me</button>
+                <DateContainer date= {props.dueDate}/> 
             </div>
-            <DateContainer date= {props.dueDate}/>
         </div>
     );
 }
